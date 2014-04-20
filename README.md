@@ -9,8 +9,8 @@ Only one thing: **Book content**
 This content takes three main forms:
 
 1. The front page (`index.md`)
-2. Additional pages
-3. Images
+2. Additional pages (`xxxxxxxx.md`)
+3. Images (`images/`)
 
 There must be a page named `index.md`, which will be used to make the front page of your book. Each additional page is represented by a separate `.md` file and can be named whatever you please.
 
@@ -28,11 +28,7 @@ Bitbooks makes very few assumptions about how your repository should be structur
 
 The structure of your Bitbooks site will mimic the structure of this repository. Here are a few example directory structures, with the resulting impact on book navigation and urls:
 
-(image 1)
-
-(image 2)
-
-(image 3)
+![Example Directory Structures](images/example-directories.png)
 
 You may have noticed that page order is defined by alphebetical sorting of the filename. For this reason, we usually recommend prepending filenames with numbers for sorting purposes. The only exception to this is `index.md` which will always be sorted first to be used as the front page.
 
