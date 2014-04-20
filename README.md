@@ -29,13 +29,13 @@ Bitbooks makes very few assumptions about how your repository should be structur
 The structure of your Bitbooks site will mimic the structure of this repository, with two exceptions:
 
 1. Your front page (`index.md`) will be promoted to the top of the list.
-2. Your readme (`readme.md`) will not appear in your table of contents.
+2. Your readme (`readme.md`) and images folder will not appear in your table of contents.
 
 Here are a few example directory structures, with the resulting impact on book navigation and urls:
 
 ![Example Directory Structures](images/example-directories.png)
 
-You may have noticed that page order is defined by alphebetical sorting of the filename. For this reason, we usually recommend prepending filenames with numbers for sorting purposes. The only exception to this is `index.md` which will always be sorted first to be used as the front page.
+You may have noticed that page order is defined by alphebetical sorting of the filename. For this reason, we usually recommend prepending filenames with numbers for sorting purposes. Finally, if you have any non-markdown files in your repository (meaning, files not ending with `.md` or `.markdown`), they will not appear on the site.
 
 ## Styleguide
 
