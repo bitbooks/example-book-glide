@@ -24,9 +24,14 @@ Markdown is a simple format for writing on the web. Markdown content is written 
 
 ## Directory Structure
 
-Bitbooks makes very few assumptions about how your repository should be structured. You can create a flat list of markdown files, or you can choose to use directories to organize your book content, like the "chapter" folders in this example.
+Bitbooks makes very few assumptions about how your repository should be structured. You can create a flat list of markdown files, or you can choose to use directories to organize your book content, like the `chapter` folders in this example.
 
-The structure of your Bitbooks site will mimic the structure of this repository. Here are a few example directory structures, with the resulting impact on book navigation and urls:
+The structure of your Bitbooks site will mimic the structure of this repository, with two exceptions:
+
+1. Your front page (`index.md`) will be promoted to the top of the list.
+2. Your readme (`readme.md`) will not appear in your table of contents.
+
+Here are a few example directory structures, with the resulting impact on book navigation and urls:
 
 ![Example Directory Structures](images/example-directories.png)
 
