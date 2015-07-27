@@ -1,8 +1,8 @@
 # Styleguide
 
-This styleguide template contains many common HTML elements. You can use it to demonstrate the look of your designs across a variety of content.
+This styleguide template contains many common HTML elements.
 
-If you'd like to contribute, make your changes to both the [markdown](https://github.com/bryanbraun/frontend-styleguide/blob/master/README.md) and [HTML](https://github.com/bryanbraun/frontend-styleguide/blob/master/styleguide.html) files. If the elements won't render in markdown (like forms, for example), you can just add them to the final section of [styleguide.html](https://github.com/bryanbraun/frontend-styleguide/blob/master/styleguide.html).
+See something missing? [Contribute to this styleguide template on github](https://github.com/bryanbraun/frontend-styleguide).
 
 * * *
 
